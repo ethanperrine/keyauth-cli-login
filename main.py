@@ -52,7 +52,7 @@ config = configparser.ConfigParser()
 
 
 def login():
-    ctypes.windll.kernel32.SetConsoleTitleW("Swiss Login")
+    ctypes.windll.kernel32.SetConsoleTitleW("Login Menu")
     print("Initializing")
     sleep(1.2)
     cls()
